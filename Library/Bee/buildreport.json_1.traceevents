@@ -1,0 +1,626 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1666540797224655, "dur": 4595669, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666540797224672, "dur": 8343, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666540797233019, "dur": 4575726, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666540801808747, "dur": 11576, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666540801820778, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666540797277306, "dur":1255, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540797278581, "dur":375, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666540797279006, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666540797279060, "dur":350, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666540797279469, "dur":1557, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540797281027, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782506, "dur":148, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782654, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782679, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782684, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782696, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782700, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782712, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782716, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782729, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782743, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801782840, "dur":2837, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666540797280472, "dur":571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797281047, "dur":3262, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797284329, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666540797284335, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797284380, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666540797284385, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797284491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797285935, "dur":4887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666540797290824, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1666540797290861, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797290951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797290966, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1666540797293044, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666540797293072, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797293150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797293255, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666540797295614, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666540797295652, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797296015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797298322, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666540797299935, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1666540797299971, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797300045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797300059, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1666540797301927, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540797301971, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797302047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797302062, "dur":56457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540797359018, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540797359079, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797359214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540797359230, "dur":827060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540798186316, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540798186342, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540798186501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540798186513, "dur":200183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540798386735, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540798386771, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540798386860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540798386874, "dur":59670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540798446576, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540798446610, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540798446742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540798446759, "dur":164225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540798611021, "dur":451327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799062349, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799062495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799062509, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799064512, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799064534, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799064621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799064637, "dur":39813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799104480, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799104501, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799104584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799104598, "dur":52666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799157295, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799157325, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799157415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799157429, "dur":39421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799196881, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799196904, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799197043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799197057, "dur":92451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799289539, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799289720, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799289814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799289827, "dur":47495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799337351, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799337376, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799337495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799337511, "dur":178896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799516441, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799516474, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799516566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799516580, "dur":46865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799563477, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799563502, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799563620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799563634, "dur":79766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799643432, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799643454, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799643544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799643559, "dur":212616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799856211, "dur":143205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540799999417, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799999548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540799999562, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800001795, "dur":1146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800002942, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800003068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800003083, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800004446, "dur":94274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800098721, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800098853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800098868, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800102538, "dur":62365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800164904, "dur":948, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800165866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800165882, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800167466, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800167499, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800167575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800167589, "dur":112283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800279903, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800279927, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800280008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800280023, "dur":176155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800456210, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800456235, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800456313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800456325, "dur":146963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800603324, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800603347, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800603431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800603445, "dur":170723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800774199, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540800774225, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800774306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540800774319, "dur":426919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540801201274, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540801201297, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801201380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801201394, "dur":204629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666540801406053, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1666540801406189, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801406283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801406966, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1666540801408544, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1666540801408589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801408676, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1666540801410475, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666540801410505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801410517, "dur":4083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666540801414629, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666540801414688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801414701, "dur":45590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666540801460321, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666540801460354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801460367, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666540801464073, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1666540801464217, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801464313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801464325, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1666540801465621, "dur":12717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1666540801478338, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801478456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801478470, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1666540801480153, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666540801480183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801480196, "dur":4329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666540801484558, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666540801484619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801484631, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666540801487585, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666540801487616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801487628, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666540801490634, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666540801490663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801490675, "dur":16676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666540801507385, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666540801507417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801507430, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666540801509833, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1666540801509866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801509879, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1666540801511468, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1666540801511602, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801511710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666540801511722, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1666540801513056, "dur":269416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797280531, "dur":521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797281053, "dur":3264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797284329, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1666540797284399, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797284522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797288696, "dur":7012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1666540797295738, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666540797295761, "dur":2959, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797298732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797298748, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666540797300964, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540797301007, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797301088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797301471, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540797303944, "dur":1173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666540797305119, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797305347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797305363, "dur":10819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666540797316218, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540797316255, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797316345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797316442, "dur":82510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540797398984, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540797399017, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797399091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540797399104, "dur":787313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798186445, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798186480, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798186605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798186618, "dur":147691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798334342, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798334366, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798334445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798334458, "dur":147956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798482461, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798482487, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798482574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798482588, "dur":78872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798561495, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540798561520, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798561615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540798561634, "dur":450404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799012092, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799012136, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799012278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799012300, "dur":43807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799056138, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799056164, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799056248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799056262, "dur":65254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799121549, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799121574, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799121704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799121719, "dur":85921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799207670, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799207693, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799207771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799207785, "dur":45822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799253639, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799253780, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799253914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799253930, "dur":83508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799337466, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799337498, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799337577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799337589, "dur":37339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799375466, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799375509, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799375620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799375634, "dur":63553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799439217, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799439244, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799439325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799439338, "dur":60865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799500234, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799500259, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799500346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799500359, "dur":43759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799544151, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799544178, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799544267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799544281, "dur":37154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799581475, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799581500, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799581578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799581592, "dur":64988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799646610, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799646750, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799646857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799646871, "dur":68268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799715170, "dur":90548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799805719, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799805869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799805887, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799807512, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799807537, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799807649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540799807663, "dur":123240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540799930938, "dur":87167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800018106, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800018233, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800018258, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800019660, "dur":63002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800082662, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800082802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800082823, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800084901, "dur":8044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800092946, "dur":2747, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800095707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800095722, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800097393, "dur":29491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800126885, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800127017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800127031, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800128448, "dur":7254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800135703, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800135872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800135887, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800137657, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800137694, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800137784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800137798, "dur":165873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800303702, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800303733, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800303812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800303826, "dur":328065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800631922, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800631946, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800632043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800632057, "dur":233295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800865391, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800865423, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800865511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800865525, "dur":89686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800955244, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540800955270, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800955357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540800955373, "dur":266157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540801221562, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540801221585, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540801221668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540801221682, "dur":96798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540801318519, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540801318545, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540801318672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666540801318686, "dur":363974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666540801682851, "dur":99620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797280587, "dur":476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797281063, "dur":3252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797284329, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666540797284378, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797284539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797288082, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666540797289605, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666540797289635, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797289712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797289922, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666540797291284, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1666540797291327, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797291399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797291750, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1666540797295153, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666540797295210, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797295294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797295310, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666540797297538, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666540797297586, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797298188, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797298404, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666540797300583, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1666540797300621, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797300792, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797300814, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1666540797303204, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1666540797303289, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797303411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797303429, "dur":4908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1666540797308380, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1666540797308415, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797308780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797309336, "dur":7618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1666540797316994, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540797317036, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797317123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797317142, "dur":99906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540797417101, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540797417132, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797417243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540797417262, "dur":768881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798186172, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798186205, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798186283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798186297, "dur":91851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798278183, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798278210, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798278300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798278314, "dur":103137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798381487, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798381525, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798381658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798381673, "dur":78430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798460220, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798460281, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798460449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798460500, "dur":193334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798653867, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798653890, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798653987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798654000, "dur":150784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798804827, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540798804969, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798805146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540798805161, "dur":250962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799056155, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799056179, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799056294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799056305, "dur":60972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799117308, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799117330, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799117412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799117426, "dur":47165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799164623, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799164663, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799164946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799164959, "dur":51169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799216159, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799216183, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799216268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799216281, "dur":93634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799309949, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799309972, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799310053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799310067, "dur":82314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799392413, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799392442, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799392534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799392553, "dur":40997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799433581, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799433603, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799433686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799433700, "dur":54533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799488275, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799488302, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799488402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799488416, "dur":55737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799544182, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799544215, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799544299, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799544316, "dur":53601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799597947, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799597972, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799598052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799598065, "dur":34066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799632164, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799632187, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799632277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799632291, "dur":82855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799715170, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799715194, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799715281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799715299, "dur":50663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799765992, "dur":158854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799924847, "dur":1568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799926428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799926443, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799928539, "dur":8961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799937501, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799937628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799937643, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799939067, "dur":48496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799987564, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799987724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540799987741, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540799990118, "dur":96696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800086815, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800086943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800086958, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800088426, "dur":52131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800140558, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800140684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800140698, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800142999, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800143023, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800143101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800143127, "dur":484593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800627772, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800627800, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800627928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800627945, "dur":61045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800689023, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800689049, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800689134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800689149, "dur":68468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800757656, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540800757689, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800757786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540800757800, "dur":325918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540801083760, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540801083788, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540801083888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540801083905, "dur":238003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540801321943, "dur":238212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540801560156, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540801560287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666540801560303, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666540801561882, "dur":220591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797280639, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797281073, "dur":3241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797284329, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1666540797284403, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797284559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797287723, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1666540797289607, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666540797289641, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797289712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797289919, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666540797291255, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666540797291285, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797291382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797292299, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666540797293678, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666540797293722, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797293794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797293808, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666540797295281, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666540797295312, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797295400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797296450, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666540797298850, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666540797298879, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797299017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797299030, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666540797301124, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540797301161, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797301418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797301573, "dur":10838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540797312454, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540797312493, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797312586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540797313024, "dur":873550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798186607, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798186641, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798186724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798186741, "dur":248926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798435702, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798435726, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798435808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798435837, "dur":42491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798478359, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798478393, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798478473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798478487, "dur":54719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798533238, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798533276, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798533371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798533389, "dur":83430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798616854, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798616881, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798617033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798617052, "dur":82079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798699166, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798699190, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798699280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798699298, "dur":186344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798885684, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540798885714, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798885796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540798885809, "dur":139535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799025377, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799025401, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799025483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799025497, "dur":106740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799132273, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799132303, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799132391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799132404, "dur":44011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799176466, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799176492, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799176623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799176637, "dur":79553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799256220, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799256242, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799256366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799256380, "dur":44811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799301320, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799301344, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799301442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799301456, "dur":46900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799348384, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799348406, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799348666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799348681, "dur":43941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799392647, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799392671, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799392784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799392796, "dur":110987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799503817, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799503842, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799503939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799503954, "dur":227265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799731250, "dur":180310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799911561, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799911698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540799911713, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540799913746, "dur":489147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540800402894, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800403043, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800403066, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540800404945, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540800404968, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800405051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800405065, "dur":285218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540800690314, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540800690341, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800690440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800690486, "dur":302329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540800992850, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540800992874, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800993017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540800993163, "dur":250740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540801243936, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540801243960, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540801244040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666540801244054, "dur":538322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kingp/OneDrive/ /TrickOrTreat/TrickOrTreat_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666540801782424, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1666540801782426, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666540801787516, "dur":3702, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1666540801820839, "dur": 1115, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666540801820763, "dur": 1230, "ph": "X", "name": "Write chrome-trace events", "args": {} },
